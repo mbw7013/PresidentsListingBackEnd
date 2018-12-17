@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="PresidentContext-Web.config Connection String" description="PresidentContext Connection String used in web.config by the application to access the database." defaultValue="data source=corcoranpresident.database.windows.net;initial catalog=CorcoranPresidents;persist security info=True;user id=CorcoranUser;password=M3g@m@n1!;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Matthew\\source\\repos\\CorcoranPresidentsBackEnd\\CorcoranPresidentsBackEnd\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PresidentContext']/@connectionString" />
+  </parameter>
+</parameters>
