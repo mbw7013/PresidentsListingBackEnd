@@ -29,11 +29,9 @@ namespace CorcoranPresidentsBackEnd
         [StringLength(200)]
         public string BirthplaceURL { get; set; }
 
-        [Required]
         [StringLength(100)]
         public string Deathday { get; set; }
 
-        [Required]
         [StringLength(100)]
         public string Deathplace { get; set; }
     }
